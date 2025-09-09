@@ -12,7 +12,7 @@ int main(){
   
   map<string,int> :: iterator it;
   for(it=mp.begin();it!=mp.end();it++){
-    cout<<"Student Name:- "(*it).first<<" And Marks:-"<<(*it).second<<"\n";
+    cout<<"Student Name:- "<<(*it).first<<" And Marks:-"<<(*it).second<<"\n";
   }
   return 0;
 }
